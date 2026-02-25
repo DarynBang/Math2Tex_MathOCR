@@ -1,4 +1,4 @@
-# Img2Latex: Image-to-LaTeX Converter
+# Math2Text - OCR: Image-to-LaTeX Converter
 
 A deep learning project focused on converting images of mathematical formulas into structured LaTeX code. This repository explores various encoder-decoder architectures for image-to-sequence tasks, covering both digital and handwritten formulas.
 
