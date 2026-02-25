@@ -12,7 +12,7 @@ The goal of this project is to build a robust system capable of translating pixe
 ### Technical Approach
 * **Encoder Experiments:** Evaluated multiple architectures including **ResNet-34**, **ResNet-50**, and **Vision Transformers (ViT)**.
 * **Decoder:** Utilized a **Transformer-based decoder** to handle long-range dependencies in LaTeX syntax.
-* **Training Strategy:** 1. Pre-trained on the base **Img2Latex** digital dataset from Hugging Face.
+* **Training Strategy:**  1. Pre-trained on the base **Img2Latex** digital dataset from Hugging Face.
     2. Fine-tuned on the **Handwritten Img2Latex** dataset to improve generalization for real-world notes.
 
 ---
@@ -52,9 +52,9 @@ streamlit run webapp.py
 ```
 
 ## ⚠️ Current Limitations & Challenges
-Validation Metrics: Currently, validation is performed through manual inspection of generated LaTeX outputs.
+**Validation Metrics:** Currently, validation is performed through manual inspection of generated LaTeX outputs.
 
-Computational Constraints: Calculating the BLEU score is currently omitted during the training loop as it is computationally expensive given my current hardware resources.
+**Computational Constraints:** Calculating the BLEU score is currently omitted during the training loop as it is computationally expensive given my current hardware resources.
 
 ## 🛠️ Repository Structure
 preprocessing.py: Logic for image normalization and filtering.
