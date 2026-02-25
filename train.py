@@ -10,12 +10,12 @@ from tqdm import tqdm
 
 warnings.filterwarnings('ignore')
 
-
+## Assuming tokenizers and csv files are in repo Img2Latex.
 tokenizer_path = r'Datasets\Img2Latex\tokenizer.json'
 
-train_csv = r'Datasets\Img2Latex_3\train.csv'
-val_csv = r'Datasets\Img2Latex_3\val.csv'
-base_dir = r'Datasets\Img2Latex_3'
+train_csv = r'Datasets\Img2Latex\train.csv'
+val_csv = r'Datasets\Img2Latex\val.csv'
+base_dir = r'Datasets\Img2Latex'
 
 torch.backends.cudnn.benchmark = True
 
@@ -152,3 +152,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
