@@ -52,7 +52,7 @@ streamlit run webapp.py
 ```
 
 ## ⚠️ Current Limitations & Challenges
-**Validation Metrics:** Currently, validation is performed through manual inspection of generated LaTeX outputs.
+**Validation Metrics:** Currently, validation is performed through manual inspection of validation loss and generated LaTeX outputs.
 
 **Computational Constraints:** Calculating the BLEU score is currently omitted during the training loop as it is computationally expensive given my current hardware resources.
 
