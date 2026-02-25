@@ -31,6 +31,7 @@ To rerun the code or test the model, follow this sequence:
 ### 1. Preprocessing
 Run the `preprocessing.py` script to handle image resizing and filtering.
 ```bash
+cd data
 python preprocessing.py
 ```
 
@@ -56,9 +57,8 @@ streamlit run webapp.py
 
 **Computational Constraints:** Calculating the BLEU score is currently omitted during the training loop as it is computationally expensive given my current hardware resources.
 
-## 🛠️ Repository Structure
-preprocessing.py: Logic for image normalization and filtering.
-
+## 🛠️ General (simplified) Repository Structure
+- data/preprocessing.py: Logic for image normalization and filtering.
 - models/: Contains the various Encoder and Transformer Decoder scripts.
 - train.py: The main training and fine-tuning loop.
 - webapp.py: Streamlit application for real-time inference.
